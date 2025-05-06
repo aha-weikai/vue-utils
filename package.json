@@ -1,0 +1,29 @@
+{
+  "name": "@aha-fast/vue-utils",
+  "version": "0.0.2",
+  "description": "a utils for vue",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "vue",
+    "utils"
+  ],
+  "author": "aha-kai",
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.0",
+  "dependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.12",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
